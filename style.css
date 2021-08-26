@@ -1,0 +1,108 @@
+body{
+    width:100%;
+    height:auto;
+  background-color:hsl(225, 100%, 94%);
+  font-family: 'Red Hat Display', sans-serif;
+}
+.container-fluid{
+padding:0
+
+}
+.background-image{
+    margin: 0;
+    width:100%;
+    height: auto;
+    position:absolute;
+}
+p{
+    color:hsl(224, 23%, 55%);
+}
+.card{
+   
+    left:36rem;
+    top:14rem;
+    border-radius: 20px;
+width: 20rem;
+height: auto;
+}
+.hero-image{
+    border-radius: 20px 20px 0 0;
+}
+.card-body{
+    text-align: center;
+    padding:7% 8%;
+}
+.card-title{
+    font-weight: 700;
+}
+.anual-plan{
+    background-color: #F8F9FE;
+    text-align:left;
+    padding:3% 5%;
+    border-radius: 20px;
+}
+.card-text{
+    color:hsl(224, 23%, 55%);
+}
+.music-icon{
+    float: inline-start;
+}
+.pricing-text{
+    display: inline-block;
+    position: relative;
+    top:0.5rem;
+    left: 0.5rem;
+}
+h6{
+    margin:0;
+}
+a{
+    position: relative;
+    left: 2.5rem;
+}
+.btn{
+    font-size: 15px;
+    font-weight: 500;
+   background-color:hsla(228, 71%, 45%, 0.932);
+   color:white;
+    margin-top: 20px;
+    width:100%;
+    padding:2% 3%;
+    border-radius: 5px;
+ webkit-box-shadow: 0 10px 10px 0 #9d9ebd ;
+   -moz-box-shadow: 0 10px 10px 0 #9d9ebd;
+   -moz-box-shadow: 0 10px 10px 0 #9d9ebd;
+   box-shadow: 0 10px 10px 0 #9d9ebd;
+
+}
+.button{
+    margin-top: 15px;
+    width: 100%;
+  font-size:15px;
+  font-weight: 700;
+  color: hsl(224, 23%, 55%);
+}
+@media (max-width:1320px)
+{
+    body{
+        width:100%;
+        height:auto;
+      
+    }
+    .container-fluid{
+        width:100%;
+        height:auto;
+        top:10px;
+        align-items: center;
+
+    }
+    .background-image{
+    position:relative;
+    }
+       
+.card{
+position:static;
+margin:0 1rem;
+
+}
+}
